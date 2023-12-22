@@ -1,4 +1,4 @@
-.search-container {
+search-bar {
   max-width: 800px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -9,7 +9,7 @@
   background-color: white;
 }
 
-.search-container > input {
+search-bar > input {
   width: 75%;
   padding: 16px;
   border: 0;
@@ -17,21 +17,21 @@
   font-weight: bold;
 }
 
-.search-container > input:focus {
+search-bar > input:focus {
   outline: 0;
   border-bottom: 2px solid cornflowerblue;
 }
 
-.search-container > input:focus::placeholder {
+search-bar > input:focus::placeholder {
   font-weight: bold;
 }
 
-.search-container > input::placeholder {
+search-bar > input::placeholder {
   color: cornflowerblue;
   font-weight: normal;
 }
 
-.search-container > button {
+search-bar > button {
   width: 23%;
   cursor: pointer;
   margin-left: auto;
@@ -43,17 +43,17 @@
 }
 
 @media screen and (max-width: 550px) {
-  .search-container {
+  search-bar {
     flex-direction: column;
     position: static;
   }
 
-  .search-container > input {
+  search-bar > input {
     width: 100%;
     margin-bottom: 12px;
   }
 
-  .search-container > button {
+  search-bar > button {
     width: 100%;
   }
 }

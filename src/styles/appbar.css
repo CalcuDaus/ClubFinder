@@ -1,4 +1,5 @@
-.app-bar {
+app-bar {
+  display: flex;
   padding: 16px;
   width: 100%;
   background-color: cornflowerblue;
