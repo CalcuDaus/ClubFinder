@@ -1,4 +1,4 @@
-search-bar {
+.search-container {
   max-width: 800px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -9,7 +9,7 @@ search-bar {
   background-color: white;
 }
 
-search-bar > input {
+.search-container > input {
   width: 75%;
   padding: 16px;
   border: 0;
@@ -17,21 +17,21 @@ search-bar > input {
   font-weight: bold;
 }
 
-search-bar > input:focus {
+.search-container > input:focus {
   outline: 0;
   border-bottom: 2px solid cornflowerblue;
 }
 
-search-bar > input:focus::placeholder {
+.search-container > input:focus::placeholder {
   font-weight: bold;
 }
 
-search-bar > input::placeholder {
+.search-container > input::placeholder {
   color: cornflowerblue;
   font-weight: normal;
 }
 
-search-bar > button {
+.search-container > button {
   width: 23%;
   cursor: pointer;
   margin-left: auto;
@@ -43,17 +43,17 @@ search-bar > button {
 }
 
 @media screen and (max-width: 550px) {
-  search-bar {
+  .search-container {
     flex-direction: column;
     position: static;
   }
 
-  search-bar > input {
+  .search-container > input {
     width: 100%;
     margin-bottom: 12px;
   }
 
-  search-bar > button {
+  .search-container > button {
     width: 100%;
   }
 }
