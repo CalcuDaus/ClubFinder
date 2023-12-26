@@ -1,3 +1,4 @@
+import 'regenerator-runtime';
 import './styles/style.css';
 import './script/components/app-bar.js';
 // import main 
