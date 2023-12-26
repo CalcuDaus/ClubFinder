@@ -7,4 +7,20 @@ module.exports = {
         filename: 'bundle.js',
     },
     mode:'production',
+    module:{
+        rules:[
+            // style and css loader 
+            {
+                test: /\.css$/,
+                use: [
+                    {
+                        loader: 'style-loader'
+                    },
+                    {
+                        loader: 'css-loader'
+                    }
+                ]
+            }
+        ]
+    }
 }
